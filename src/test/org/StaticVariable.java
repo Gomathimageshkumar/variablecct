@@ -2,6 +2,9 @@ package test.org;
 
 public class StaticVariable {
 	static int a;
+	private void sub() {
+System.out.println("dont consider it");
+	}
 	private void add() {
 		a=10;
 		System.out.println(a);
